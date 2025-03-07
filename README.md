@@ -31,7 +31,7 @@ This repository encompasses a comprehensive data analysis project focused on COV
 ●This step marked a crucial milestone in the data analysis process, preparing the dataset for visualization.
 
 6. Visualization and Global Insights:
-7. 
+
 ●Moved on to the visualization phase, gaining a holistic view of global COVID-19 statistics.
 
 ●Explored metrics such as global numbers, percentage of population infected per country, and other key indicators.
