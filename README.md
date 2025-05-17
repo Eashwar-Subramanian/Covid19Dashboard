@@ -1,39 +1,77 @@
-This repository encompasses a comprehensive data analysis project focused on COVID-19 data sourced from OurWorldInData. The project involves several key stages:
+# 🦠 COVID-19 Data Analysis Project (SQL + Tableau)
 
-1. Data Download and Splitting:
+A comprehensive data analysis pipeline on global COVID-19 deaths and vaccinations using **SQL**, **MySQL**, and **Tableau**. The project includes data extraction, cleaning, analysis, and visualization.
 
-●Downloaded COVID-19 data from OurWorldInData, specifically focusing on two aspects: COVID-19 deaths and COVID-19 vaccinations.
+---
 
-●Split the downloaded data into two distinct datasets, ensuring clarity and relevance for subsequent analysis.
+## 📁 Project Workflow
 
-2. Database Setup and Data Cleaning:
+### 1. 📥 Data Collection & Splitting
+- Downloaded COVID-19 data from [Our World in Data](https://ourworldindata.org/coronavirus).
+- Split into two datasets:
+  - COVID-19 deaths
+  - COVID-19 vaccinations
 
-●Established a connection with a MySQL server to create a dedicated database for the project.
+### 2. 🧹 Data Cleaning & Database Setup
+- Set up a **MySQL database** for structured storage.
+- Cleaned the datasets for nulls, duplicates, and schema alignment.
 
-●Implemented essential data cleaning operations to ensure the integrity and quality of the datasets.
+### 3. 🔍 Data Exploration with SQL
+- Wrote SQL queries to:
+  - Analyze global case/death trends
+  - Compare vaccination rates
+  - Examine infection percentages by country
 
-3. Data Exploration and Insights:
+### 4. 📊 Tableau Dashboard Preparation
+- Used SQL insights to prepare a **Tableau dashboard**.
+- Focused on impactful metrics and comparisons.
+- Dashboard includes:
+  - Global infections
+  - Vaccination rollouts
+  - Country-level comparisons
 
-●Executed various data exploration techniques to extract meaningful insights from the COVID-19 datasets.
+### 5. 📂 Query Storage & Export
+- Stored SQL query results in a dedicated output folder.
+- Used for Tableau data source.
 
-●Utilized SQL queries to perform analysis, gaining valuable information crucial for further visualization.
+---
 
-4. Tableau Dashboard Preparation:
+## 💻 Tools & Technologies
 
-●Leveraged the acquired insights to lay the foundation for a Tableau dashboard.
+| Tool       | Purpose                     |
+|------------|-----------------------------|
+| MySQL      | Database storage & querying |
+| SQL        | Data exploration & analysis |
+| Tableau    | Visualization & dashboard   |
+| Python (optional) | Data preprocessing (if used) |
+| OurWorldInData | COVID-19 data source     |
 
-●Ensured that the insights generated were relevant and impactful for building an informative and visually appealing dashboard.
+---
 
-5. Query Execution and Data Storage:
+## 📌 Key Insights Uncovered
 
-●Executed SQL queries to extract specific information and stored the results in a dedicated folder for future reference.
+- Global vaccination and death trends
+- Countries with highest death rates per population
+- Share of population vaccinated over time
+- Correlation between vaccination and decline in cases
 
-●This step marked a crucial milestone in the data analysis process, preparing the dataset for visualization.
+---
 
-6. Visualization and Global Insights:
+## 📸 Sample Dashboard View (Optional)
 
-●Moved on to the visualization phase, gaining a holistic view of global COVID-19 statistics.
+> *(Add a screenshot of your Tableau dashboard here)*
 
-●Explored metrics such as global numbers, percentage of population infected per country, and other key indicators.
+---
 
-The project not only involves meticulous data management but also focuses on extracting meaningful insights that contribute to the development of an impactful Tableau dashboard. This GitHub repository serves as a comprehensive record of the project's journey, from data acquisition to visualization, providing a valuable resource for future reference and collaboration.
+## 🧠 Learning Outcomes
+
+- Real-world experience with SQL + MySQL
+- Visual storytelling with data
+- Data wrangling and schema creation
+- Tableau dashboard development
+
+---
+
+## 📝 License
+
+This repository is part of an academic course and is available for educational reference.
