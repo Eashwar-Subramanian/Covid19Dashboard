@@ -1,77 +1,59 @@
-# 🦠 COVID-19 Data Analysis Project (SQL + Tableau)
+# COVID-19 Data Analysis (SQL + Tableau)
+**Global pandemic data exploration using SQL queries and Tableau visualizations**
 
-A comprehensive data analysis pipeline on global COVID-19 deaths and vaccinations using **SQL**, **MySQL**, and **Tableau**. The project includes data extraction, cleaning, analysis, and visualization.
+## 🎯 Project Scope
+Comprehensive analysis of global COVID-19 deaths and vaccination data using SQL for data exploration and Tableau for visualization dashboard creation.
 
----
+## 📊 Data Analysis Focus
+- **Global Trends:** COVID-19 case and death progression over time
+- **Vaccination Analysis:** Rollout rates and coverage by country
+- **Geographic Comparisons:** Infection and mortality rates across regions
+- **Statistical Insights:** Death rates as percentage of population
+- **Temporal Patterns:** Timeline analysis of pandemic progression
 
-## 📁 Project Workflow
+## 🛠️ Technical Pipeline
+**Data Processing:**
+- MySQL database setup and data import
+- SQL queries for trend analysis and aggregations
+- Data extraction for Tableau integration
 
-### 1. 📥 Data Collection & Splitting
-- Downloaded COVID-19 data from [Our World in Data](https://ourworldindata.org/coronavirus).
-- Split into two datasets:
-  - COVID-19 deaths
-  - COVID-19 vaccinations
+**Visualization:**
+- Tableau dashboard with multiple chart types
+- Country-level comparisons and global overviews
+- Time-series analysis of key metrics
 
-### 2. 🧹 Data Cleaning & Database Setup
-- Set up a **MySQL database** for structured storage.
-- Cleaned the datasets for nulls, duplicates, and schema alignment.
+## 📁 Data Sources
+- **Primary:** Our World in Data COVID-19 dataset
+- **Split into:** Deaths dataset and Vaccinations dataset
+- **Coverage:** Global data with country-level granularity
 
-### 3. 🔍 Data Exploration with SQL
-- Wrote SQL queries to:
-  - Analyze global case/death trends
-  - Compare vaccination rates
-  - Examine infection percentages by country
+## 📈 Analysis Components
+**SQL Exploration:**
+- Global infection and death rate calculations
+- Country-specific vaccination progress tracking
+- Time-based trend analysis queries
+- Population-adjusted metric calculations
 
-### 4. 📊 Tableau Dashboard Preparation
-- Used SQL insights to prepare a **Tableau dashboard**.
-- Focused on impactful metrics and comparisons.
-- Dashboard includes:
-  - Global infections
-  - Vaccination rollouts
-  - Country-level comparisons
+**Tableau Dashboard:**
+- Interactive global infection tracking
+- Vaccination rollout progress visualization  
+- Country comparison tools
+- Temporal trend analysis
 
-### 5. 📂 Query Storage & Export
-- Stored SQL query results in a dedicated output folder.
-- Used for Tableau data source.
+## 🔧 Technical Stack
+**Database:** MySQL for data storage and querying  
+**Analysis:** SQL for data exploration and aggregation  
+**Visualization:** Tableau for dashboard creation  
+**Data Format:** CSV processing and database integration
 
----
+## 📁 Repository Contents
+- `Covid Project MySql.sql` - Main SQL analysis queries
+- `Covi19fortableau.sql` - Tableau preparation queries
+- `Tableau Table 1-4.xlsx` - Processed data for dashboard
+- Multiple Excel exports for Tableau integration
 
-## 💻 Tools & Technologies
-
-| Tool       | Purpose                     |
-|------------|-----------------------------|
-| MySQL      | Database storage & querying |
-| SQL        | Data exploration & analysis |
-| Tableau    | Visualization & dashboard   |
-| Python (optional) | Data preprocessing (if used) |
-| OurWorldInData | COVID-19 data source     |
-
----
-
-## 📌 Key Insights Uncovered
-
-- Global vaccination and death trends
-- Countries with highest death rates per population
-- Share of population vaccinated over time
-- Correlation between vaccination and decline in cases
-
----
-
-## 📸 Sample Dashboard View (Optional)
-
-> *(Add a screenshot of your Tableau dashboard here)*
-
----
-
-## 🧠 Learning Outcomes
-
-- Real-world experience with SQL + MySQL
-- Visual storytelling with data
-- Data wrangling and schema creation
-- Tableau dashboard development
-
----
-
-## 📝 License
-
-This repository is part of an academic course and is available for educational reference.
+## 🎓 Project Value
+- Experience with large-scale public health datasets
+- SQL analysis of time-series data
+- Integration between SQL databases and Tableau
+- Public health data storytelling through visualization
